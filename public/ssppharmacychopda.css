@@ -1,0 +1,306 @@
+@font-face
+{
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: 400;
+   src: url(MaterialIcons-Regular.eot);
+   src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(MaterialIcons-Regular.woff2) format('woff2'),
+        url(MaterialIcons-Regular.woff) format('woff'),
+        url(MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons
+{
+   font-family: "Material Icons";
+   font-weight: normal;
+   font-style: normal;
+   font-size: 24px;
+   display: inline-block;
+   line-height: 1;
+   text-transform: none;
+   letter-spacing: normal;
+   word-wrap: normal;
+   white-space: nowrap;
+   direction: ltr;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+   -moz-osx-font-smoothing: grayscale;
+   font-feature-settings: "liga";
+}
+@-webkit-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-moz-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-o-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-ms-keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@keyframes animate-background
+{
+   0% { background-color: #000000;  }
+   100% { background-color: #FFFFFF;  }
+}
+@-webkit-keyframes animate-border
+{
+   0% { border-color: #000000;  }
+   100% { border-color: #FF0000;  }
+}
+@-moz-keyframes animate-border
+{
+   0% { border-color: #000000;  }
+   100% { border-color: #FF0000;  }
+}
+@-o-keyframes animate-border
+{
+   0% { border-color: #000000;  }
+   100% { border-color: #FF0000;  }
+}
+@-ms-keyframes animate-border
+{
+   0% { border-color: #000000;  }
+   100% { border-color: #FF0000;  }
+}
+@keyframes animate-border
+{
+   0% { border-color: #000000;  }
+   100% { border-color: #FF0000;  }
+}
+@-webkit-keyframes animate-font-size
+{
+   0% { font-size: 100%;  }
+   50% { font-size: 200%;  }
+   100% { font-size: 100%;  }
+}
+@-moz-keyframes animate-font-size
+{
+   0% { font-size: 100%;  }
+   50% { font-size: 200%;  }
+   100% { font-size: 100%;  }
+}
+@-o-keyframes animate-font-size
+{
+   0% { font-size: 100%;  }
+   50% { font-size: 200%;  }
+   100% { font-size: 100%;  }
+}
+@-ms-keyframes animate-font-size
+{
+   0% { font-size: 100%;  }
+   50% { font-size: 200%;  }
+   100% { font-size: 100%;  }
+}
+@keyframes animate-font-size
+{
+   0% { font-size: 100%;  }
+   50% { font-size: 200%;  }
+   100% { font-size: 100%;  }
+}
+@-webkit-keyframes vanish-in
+{
+   0% { -webkit-transform: rotate(0deg) scale(2,2) ; opacity: 0; -webkit-transform-origin: 50% 50%;  }
+   100% { -webkit-transform: rotate(0deg) scale(1,1) ; opacity: 1; -webkit-transform-origin: 50% 50%;  }
+}
+@-moz-keyframes vanish-in
+{
+   0% { -moz-transform: rotate(0deg) scale(2,2) ; opacity: 0; -moz-transform-origin: 50% 50%;  }
+   100% { -moz-transform: rotate(0deg) scale(1,1) ; opacity: 1; -moz-transform-origin: 50% 50%;  }
+}
+@-o-keyframes vanish-in
+{
+   0% { -o-transform: rotate(0deg) scale(2,2) ; opacity: 0; -o-transform-origin: 50% 50%;  }
+   100% { -o-transform: rotate(0deg) scale(1,1) ; opacity: 1; -o-transform-origin: 50% 50%;  }
+}
+@-ms-keyframes vanish-in
+{
+   0% { -ms-transform: rotate(0deg) scale(2,2) ; opacity: 0; -ms-transform-origin: 50% 50%;  }
+   100% { -ms-transform: rotate(0deg) scale(1,1) ; opacity: 1; -ms-transform-origin: 50% 50%;  }
+}
+@keyframes vanish-in
+{
+   0% { transform: rotate(0deg) scale(2,2) ; opacity: 0; transform-origin: 50% 50%;  }
+   100% { transform: rotate(0deg) scale(1,1) ; opacity: 1; transform-origin: 50% 50%;  }
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a.style1
+{
+   color: #00BFFF;
+   text-decoration: none;
+}
+a.style1:visited
+{
+   color: #00BFFF;
+   text-decoration: none;
+}
+a.style1:active
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.style1:hover
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.style2
+{
+   color: #FFA500;
+   text-decoration: none;
+}
+a.style2:visited
+{
+   color: #FFA500;
+   text-decoration: underline;
+}
+a.style2:active
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.style2:hover
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+a.style3
+{
+   color: #DC143C;
+   font-weight: bold;
+   text-decoration: underline;
+}
+a.style3:visited
+{
+   color: #DC143C;
+   font-weight: bold;
+   text-decoration: underline;
+}
+a.style3:active
+{
+   color: #DC143C;
+   font-weight: bold;
+   text-decoration: underline;
+}
+a.style3:hover
+{
+   color: #DC143C;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: underline;
+}
+h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 27px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 24px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 21px;
+   font-style: italic;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000080;
+   background-color: transparent;
+}
