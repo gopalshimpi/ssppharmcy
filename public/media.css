@@ -6,13 +6,13 @@ div#space
 {
    width: 1px;
    height: 50%;
-   margin-bottom: -2651px;
+   margin-bottom: -2730px;
    float:left
 }
 div#container
 {
    width: 1125px;
-   height: 5303px;
+   height: 5461px;
    margin: 0 auto;
    position: relative;
    clear: left;
@@ -973,6 +973,16 @@ body
    height: 162px;
 }
 #PhotoGallery1_img159
+{
+   width: 162px;
+   height: 162px;
+}
+#PhotoGallery1_img160
+{
+   width: 162px;
+   height: 162px;
+}
+#PhotoGallery1_img161
 {
    width: 162px;
    height: 162px;
