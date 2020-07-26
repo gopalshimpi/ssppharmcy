@@ -13,7 +13,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -21,6 +21,10 @@ body
 #wb_Text3 div
 {
    text-align: left;
+}
+#wb_Line1
+{
+   font-size: 0;
 }
 #Line1
 {
@@ -39,32 +43,38 @@ body
 #Shape2
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape3
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape7
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape8
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape9
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape5
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Text2 
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: justify;
@@ -76,152 +86,190 @@ body
 #Shape6
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape11
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape17
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape12
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape13
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape16
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape18
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape19
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape21
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape22
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape23
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape25
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape1
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape4
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape10
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape14
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape15
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape20
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape24
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape26
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape27
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape28
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape29
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape30
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape31
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape32
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape33
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape34
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape35
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape36
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape37
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape38
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape39
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape40
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape41
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape42
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape43
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape44
 {
    border-width: 0;
+   vertical-align: top;
 }

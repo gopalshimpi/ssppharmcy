@@ -13,7 +13,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -22,6 +22,10 @@ body
 {
    text-align: left;
    white-space: nowrap;
+}
+#wb_Line1
+{
+   font-size: 0;
 }
 #Line1
 {
@@ -33,7 +37,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: justify;
@@ -45,20 +49,23 @@ body
 #Shape3
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape2
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape1
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Text4 
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -71,7 +78,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -79,6 +86,10 @@ body
 #wb_Text5 div
 {
    text-align: left;
+}
+#wb_Line3
+{
+   font-size: 0;
 }
 #Line3
 {

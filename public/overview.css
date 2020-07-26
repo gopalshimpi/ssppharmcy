@@ -13,7 +13,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -27,7 +27,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: justify;
@@ -35,6 +35,10 @@ body
 #wb_Text3 div
 {
    text-align: justify;
+}
+#wb_Line1
+{
+   font-size: 0;
 }
 #Line1
 {
