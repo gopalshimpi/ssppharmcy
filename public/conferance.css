@@ -2714,6 +2714,31 @@ body
 {
    display: none;
 }
+#wb_Text61 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text61 div
+{
+   text-align: center;
+}
+#SlideShow20 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SlideShow20 a:not(:first-child) .image
+{
+   display: none;
+}
 #PageFooter1
 {
    background-color: #2F4F4F;
