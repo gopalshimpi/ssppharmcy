@@ -1268,6 +1268,16 @@ body
    width: 100%;
    height: 100%;
 }
+#Image8
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #MenuBar1
 {
    background-color: transparent;
@@ -1575,16 +1585,6 @@ body
    padding: 0;
    border: 0;
    font-size: 1px;
-}
-#Image8
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #PageFooter1
 {
