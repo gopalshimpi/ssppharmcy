@@ -3292,7 +3292,7 @@ body
 {
    text-align: left;
 }
-#wb_Text23 
+#wb_Text22 
 {
    background-color: transparent;
    background-image: none;
@@ -3301,20 +3301,7 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text23 div
-{
-   text-align: left;
-}
-#wb_Text25 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text25 div
+#wb_Text22 div
 {
    text-align: left;
 }
