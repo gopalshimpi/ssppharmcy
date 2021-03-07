@@ -1646,6 +1646,83 @@ body
    width: 100%;
    height: 100%;
 }
+#Shape11
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12 div
+{
+   text-align: left;
+}
+#wb_IconFont1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#wb_IconFont1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#IconFont1
+{
+   height: 251px;
+   width: 259px;
+}
+.IconFont1
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.IconFont1:before
+{
+   content: "\";
+}
+#IconFont1 i
+{
+   color: #DC143C;
+   display: inline-block;
+   font-size: 251px;
+   line-height: 251px;
+   vertical-align: middle;
+   width: 73px;
+}
+#wb_IconFont1:hover i
+{
+   color: #CD5C5C;
+}
+#Image11
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #MenuBar1
 {
    background-color: transparent;
@@ -1953,83 +2030,6 @@ body
    padding: 0;
    border: 0;
    font-size: 1px;
-}
-#Shape11
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Text12 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text12 div
-{
-   text-align: left;
-}
-#wb_IconFont1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_IconFont1:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#IconFont1
-{
-   height: 251px;
-   width: 259px;
-}
-.IconFont1
-{
-   position: relative;
-   left: 0;
-   top: 0;
-   display: inline-block;
-   font-family: "Material Icons";
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-}
-.IconFont1:before
-{
-   content: "\";
-}
-#IconFont1 i
-{
-   color: #DC143C;
-   display: inline-block;
-   font-size: 251px;
-   line-height: 251px;
-   vertical-align: middle;
-   width: 73px;
-}
-#wb_IconFont1:hover i
-{
-   color: #CD5C5C;
-}
-#Image11
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #PageFooter1
 {
