@@ -56,17 +56,6 @@ body
    width: 100%;
    height: 100%;
 }
-#Image2
-{
-   border: 1px solid #000000;
-   border-radius: 4px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Text1 
 {
    background-color: transparent;
@@ -79,52 +68,6 @@ body
 #wb_Text1 div
 {
    text-align: center;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text2 div
-{
-   text-align: center;
-}
-#wb_Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text4 div
-{
-   text-align: center;
-}
-#Picture1
-{
-   border: 1px solid #000000;
-   border-radius: 2px;
-   padding: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#Picture2
-{
-   border: 1px solid #000000;
-   border-radius: 2px;
-   padding: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #wb_Text5 
 {
@@ -140,29 +83,6 @@ body
    text-align: center;
 }
 #Picture3
-{
-   border: 1px solid #000000;
-   border-radius: 2px;
-   padding: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Text7 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text7 div
-{
-   text-align: center;
-}
-#Picture4
 {
    border: 1px solid #000000;
    border-radius: 2px;
@@ -190,6 +110,17 @@ body
    border: 1px solid #000000;
    border-radius: 2px;
    padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image2
+{
+   border: 1px solid #000000;
+   border-radius: 2px;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
