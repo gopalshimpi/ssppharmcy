@@ -1230,19 +1230,6 @@ body
 {
    text-align: left;
 }
-#wb_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text9 div
-{
-   text-align: left;
-}
 #wb_Text12 
 {
    background-color: transparent;
@@ -1602,6 +1589,32 @@ body
    padding: 0;
    border: 0;
    font-size: 1px;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text22 div
+{
+   text-align: left;
+}
+#wb_Text23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text23 div
+{
+   text-align: left;
 }
 #PageFooter1
 {
