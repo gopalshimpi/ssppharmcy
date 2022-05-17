@@ -12,7 +12,8 @@
 <link href="ssppharmacychopda.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
-<script src="wb.carousel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.carousel.effects.min.js"></script>
 <script>
 $(document).ready(function()
 {
@@ -21,14 +22,14 @@ $(document).ready(function()
       delay: 5000,
       duration: 500,
       easing: 'linear',
-      mode: 'forward-circular',
+      mode: 'fade',
       direction: '',
       pagination: true,
       pagination_img_default: 'images/page_default.png',
       pagination_img_active: 'images/page_active.png',
       start: 23
    };
-   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1").carouseleffects(Carousel1Opts);
 });
 </script>
 </head>
@@ -264,27 +265,25 @@ cmDrawFromText('MenuBar1', 'hbr', cmMenuBar1, 'MenuBar1');
 <img src="images/img0015.jpg" id="Image10" alt=""></div>
 <div id="wb_Image25" style="position:absolute;left:980px;top:2px;width:138px;height:77px;z-index:188;">
 <a href="http://swachhbharat.mygov.in"><img src="images/img0006.png" id="Image25" alt=""></a></div>
-<div id="wb_Image45" style="position:absolute;left:0px;top:10px;width:75px;height:50px;z-index:189;">
-<img src="images/unnamed.png" id="Image45" alt=""></div>
-<div id="wb_Shape5" style="position:absolute;left:1px;top:1969px;width:1117px;height:203px;z-index:190;">
+<div id="wb_Shape5" style="position:absolute;left:1px;top:1969px;width:1117px;height:203px;z-index:189;">
 <img src="images/img0004.png" id="Shape5" alt="" style="width:1117px;height:203px;"></div>
-<div id="wb_Shape8" style="position:absolute;left:7px;top:1979px;width:1099px;height:185px;z-index:191;">
+<div id="wb_Shape8" style="position:absolute;left:7px;top:1979px;width:1099px;height:185px;z-index:190;">
 <img src="images/img0010.png" id="Shape8" alt="" style="width:1099px;height:185px;"></div>
-<div id="wb_Image8" style="position:absolute;left:355px;top:2053px;width:98px;height:77px;z-index:192;">
+<div id="wb_Image8" style="position:absolute;left:355px;top:2053px;width:98px;height:77px;z-index:191;">
 <a href="https://www.maharashtra.gov.in/"><img src="images/img0013.png" id="Image8" alt="Government of Maharashtra" title="Government of Maharashtra"></a></div>
-<div id="wb_Image9" style="position:absolute;left:53px;top:2052px;width:88px;height:78px;z-index:193;">
+<div id="wb_Image9" style="position:absolute;left:53px;top:2052px;width:88px;height:78px;z-index:192;">
 <a href="http://www.aicte-india.org/"><img src="images/img0016.png" id="Image9" alt="AICTE" title="AICTE"></a></div>
-<div id="wb_Text12" style="position:absolute;left:19px;top:1997px;width:250px;height:23px;z-index:194;">
+<div id="wb_Text12" style="position:absolute;left:19px;top:1997px;width:250px;height:23px;z-index:193;">
 <span style="color:#2F4F4F;font-family:'Trebuchet MS';font-size:17px;">Recognized/Accredited by</span></div>
-<div id="wb_Line2" style="position:absolute;left:15px;top:2021px;width:427px;height:2px;z-index:195;">
+<div id="wb_Line2" style="position:absolute;left:15px;top:2021px;width:427px;height:2px;z-index:194;">
 <img src="images/img0019.png" id="Line2" alt=""></div>
-<div id="wb_Image26" style="position:absolute;left:835px;top:2056px;width:77px;height:70px;z-index:196;">
+<div id="wb_Image26" style="position:absolute;left:835px;top:2056px;width:77px;height:70px;z-index:195;">
 <a href="./ISO.pdf"><img src="images/img0022.png" id="Image26" alt=""></a></div>
-<div id="wb_Shape13" style="position:absolute;left:728px;top:969px;width:386px;height:520px;z-index:197;">
+<div id="wb_Shape13" style="position:absolute;left:728px;top:969px;width:386px;height:520px;z-index:196;">
 <img src="images/img0023.png" id="Shape13" alt="" style="width:386px;height:520px;"></div>
-<div id="wb_Shape12" style="position:absolute;left:869px;top:952px;width:127px;height:35px;z-index:198;">
+<div id="wb_Shape12" style="position:absolute;left:869px;top:952px;width:127px;height:35px;z-index:197;">
 <img src="images/img1329.png" id="Shape12" alt="" style="width:127px;height:35px;"></div>
-<div id="wb_BulletedList2" style="position:absolute;left:738px;top:997px;width:368px;height:468px;z-index:199;">
+<div id="wb_BulletedList2" style="position:absolute;left:738px;top:997px;width:368px;height:468px;z-index:198;">
 <div>
    <div class="bullet" style="height:42px;">&bull;</div>
    <div class="item item0"><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:15px;line-height:20px;">Organization of State level &amp; National level workshop.</span></div>
@@ -318,17 +317,17 @@ cmDrawFromText('MenuBar1', 'hbr', cmMenuBar1, 'MenuBar1');
    <div class="item item7"><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:15px;line-height:20px;">Participiation in youth parliament ,invarious university level ,Inter-university Level ,State and naional level competitions.</span></div>
 </div>
 </div>
-<div id="wb_Image57" style="position:absolute;left:216px;top:2052px;width:79px;height:79px;z-index:200;">
+<div id="wb_Image57" style="position:absolute;left:216px;top:2052px;width:79px;height:79px;z-index:199;">
 <a href="http://www.pci.nic.in/"><img src="images/PCI-Recruitment-2016.png" id="Image57" alt=""></a></div>
-<div id="wb_Image6" style="position:absolute;left:515px;top:2057px;width:88px;height:68px;z-index:201;">
+<div id="wb_Image6" style="position:absolute;left:515px;top:2057px;width:88px;height:68px;z-index:200;">
 <a href="./NMU 19-20 -P1.pdf"><img src="images/img0011.png" id="Image6" alt=""></a></div>
-<div id="wb_Text26" style="position:absolute;left:938px;top:79px;width:140px;height:20px;z-index:202;">
+<div id="wb_Text26" style="position:absolute;left:938px;top:79px;width:140px;height:20px;z-index:201;">
 <span style="color:#DC143C;font-family:'Trebuchet MS';font-size:15px;"><strong><u><a href="NBA Renewal Letter 2019 to 2022.pdf" target="_blank">NBA Accreditation</a></u></strong></span></div>
-<div id="wb_Image100" style="position:absolute;left:0px;top:61px;width:75px;height:38px;z-index:203;">
+<div id="wb_Image100" style="position:absolute;left:0px;top:61px;width:75px;height:38px;z-index:202;">
 <a href="./NBA Renewal Letter 2019 to 2022.pdf"><img src="images/nba-accreditation.png" id="Image100" alt=""></a></div>
-<div id="wb_Image105" style="position:absolute;left:967px;top:2057px;width:82px;height:69px;z-index:204;">
+<div id="wb_Image105" style="position:absolute;left:967px;top:2057px;width:82px;height:69px;z-index:203;">
 <a href="./NBA Renewal Letter 2019 to 2022.pdf"><img src="images/NBA-NEW.png" id="Image105" alt=""></a></div>
-<div id="wb_Carousel1" style="position:absolute;left:0px;top:144px;width:1116px;height:401px;z-index:205;overflow:hidden;">
+<div id="wb_Carousel1" style="position:absolute;left:0px;top:144px;width:1116px;height:401px;z-index:204;overflow:hidden;">
 <div id="Carousel1" style="position:absolute;">
 <div class="frame">
 <div id="wb_Image33" style="position:absolute;left:79px;top:6px;width:950px;height:377px;z-index:0;">
@@ -338,298 +337,298 @@ cmDrawFromText('MenuBar1', 'hbr', cmMenuBar1, 'MenuBar1');
 <div id="wb_Image104" style="position:absolute;left:475px;top:6px;width:182px;height:141px;z-index:2;">
 <img src="images/NBA-NEW.png" id="Image104" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image125" style="position:absolute;left:1425px;top:5px;width:248px;height:168px;z-index:3;">
+<div class="frame" style="display:none">
+<div id="wb_Image125" style="position:absolute;left:307px;top:5px;width:248px;height:168px;z-index:3;">
 <img src="images/img2218.jpg" id="Image125" alt=""></div>
-<div id="wb_Image4" style="position:absolute;left:1173px;top:5px;width:248px;height:168px;z-index:4;">
+<div id="wb_Image4" style="position:absolute;left:55px;top:5px;width:248px;height:168px;z-index:4;">
 <img src="images/cpesea%20comm%20visit%2011%20march%202017%20%281%29_cpr.jpg" id="Image4" alt=""></div>
-<div id="wb_Image126" style="position:absolute;left:1677px;top:5px;width:248px;height:168px;z-index:5;">
+<div id="wb_Image126" style="position:absolute;left:559px;top:5px;width:248px;height:168px;z-index:5;">
 <img src="images/img2219.jpg" id="Image126" alt=""></div>
-<div id="wb_Image127" style="position:absolute;left:1929px;top:5px;width:248px;height:168px;z-index:6;">
+<div id="wb_Image127" style="position:absolute;left:811px;top:5px;width:248px;height:168px;z-index:6;">
 <img src="images/cpesea%20comm%20visit%2011%20march%202017%20%285%29_cpr.jpg" id="Image127" alt=""></div>
-<div id="wb_Image128" style="position:absolute;left:1172px;top:177px;width:248px;height:168px;z-index:7;">
+<div id="wb_Image128" style="position:absolute;left:54px;top:177px;width:248px;height:168px;z-index:7;">
 <img src="images/img2220.jpg" id="Image128" alt=""></div>
-<div id="wb_Image129" style="position:absolute;left:1424px;top:177px;width:248px;height:168px;z-index:8;">
+<div id="wb_Image129" style="position:absolute;left:306px;top:177px;width:248px;height:168px;z-index:8;">
 <img src="images/cpesea%20comm%20visit%2011%20march%202017%20%284%29_cpr.jpg" id="Image129" alt=""></div>
-<div id="wb_Image130" style="position:absolute;left:1676px;top:177px;width:248px;height:168px;z-index:9;">
+<div id="wb_Image130" style="position:absolute;left:558px;top:177px;width:248px;height:168px;z-index:9;">
 <img src="images/cpesea%20comm%20visit%2011%20march%202017%20%286%29_cpr.jpg" id="Image130" alt=""></div>
-<div id="wb_Image131" style="position:absolute;left:1928px;top:177px;width:248px;height:168px;z-index:10;">
+<div id="wb_Image131" style="position:absolute;left:810px;top:177px;width:248px;height:168px;z-index:10;">
 <img src="images/img2221.jpg" id="Image131" alt=""></div>
-<div id="wb_Shape2" style="position:absolute;left:1172px;top:340px;width:1004px;height:44px;opacity:0.62;z-index:11;">
+<div id="wb_Shape2" style="position:absolute;left:54px;top:340px;width:1004px;height:44px;opacity:0.62;z-index:11;">
 <img src="images/img0002.gif" id="Shape2" alt="" style="width:1004px;height:44px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image2" style="position:absolute;left:2316px;top:16px;width:948px;height:368px;z-index:12;">
+<div class="frame" style="display:none">
+<div id="wb_Image2" style="position:absolute;left:80px;top:16px;width:948px;height:368px;z-index:12;">
 <img src="images/IMG_0907.JPG" id="Image2" alt=""></div>
-<div id="wb_Shape3" style="position:absolute;left:2316px;top:342px;width:950px;height:44px;opacity:0.62;z-index:13;">
+<div id="wb_Shape3" style="position:absolute;left:80px;top:342px;width:950px;height:44px;opacity:0.62;z-index:13;">
 <img src="images/img0003.gif" id="Shape3" alt="" style="width:950px;height:44px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image124" style="position:absolute;left:4142px;top:193px;width:251px;height:191px;z-index:14;">
+<div class="frame" style="display:none">
+<div id="wb_Image124" style="position:absolute;left:788px;top:193px;width:251px;height:191px;z-index:14;">
 <img src="images/womensday2017%20%287%29.jpg" id="Image124" alt=""></div>
-<div id="wb_Image122" style="position:absolute;left:3830px;top:193px;width:307px;height:191px;z-index:15;">
+<div id="wb_Image122" style="position:absolute;left:476px;top:193px;width:307px;height:191px;z-index:15;">
 <img src="images/img2217.jpg" id="Image122" alt=""></div>
-<div id="wb_Image5" style="position:absolute;left:3436px;top:7px;width:389px;height:377px;z-index:16;">
+<div id="wb_Image5" style="position:absolute;left:82px;top:7px;width:389px;height:377px;z-index:16;">
 <img src="images/womensday2017%20%281%29.jpg" id="Image5" alt=""></div>
-<div id="wb_Shape4" style="position:absolute;left:3434px;top:332px;width:961px;height:54px;opacity:0.62;z-index:17;">
+<div id="wb_Shape4" style="position:absolute;left:80px;top:332px;width:961px;height:54px;opacity:0.62;z-index:17;">
 <img src="images/img0005.gif" id="Shape4" alt="" style="width:961px;height:54px;"></div>
-<div id="wb_Image121" style="position:absolute;left:3830px;top:7px;width:308px;height:182px;z-index:18;">
+<div id="wb_Image121" style="position:absolute;left:476px;top:7px;width:308px;height:182px;z-index:18;">
 <img src="images/img2222.jpg" id="Image121" alt=""></div>
-<div id="wb_Image123" style="position:absolute;left:4143px;top:7px;width:250px;height:182px;z-index:19;">
+<div id="wb_Image123" style="position:absolute;left:789px;top:7px;width:250px;height:182px;z-index:19;">
 <img src="images/womensday2017%20%286%29.jpg" id="Image123" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image86" style="position:absolute;left:4538px;top:13px;width:984px;height:369px;z-index:20;">
+<div class="frame" style="display:none">
+<div id="wb_Image86" style="position:absolute;left:66px;top:13px;width:984px;height:369px;z-index:20;">
 <img src="images/qc2cay4fv7.jpg" id="Image86" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image97" style="position:absolute;left:5675px;top:27px;width:453px;height:359px;z-index:21;">
+<div class="frame" style="display:none">
+<div id="wb_Image97" style="position:absolute;left:85px;top:27px;width:453px;height:359px;z-index:21;">
 <img src="images/ragg%20%281%29.JPG" id="Image97" alt=""></div>
-<div id="wb_Image20" style="position:absolute;left:6133px;top:27px;width:483px;height:359px;z-index:22;">
+<div id="wb_Image20" style="position:absolute;left:543px;top:27px;width:483px;height:359px;z-index:22;">
 <img src="images/ragg%20%282%29.JPG" id="Image20" alt=""></div>
-<div id="wb_Shape30" style="position:absolute;left:5675px;top:334px;width:944px;height:54px;opacity:0.62;z-index:23;">
+<div id="wb_Shape30" style="position:absolute;left:85px;top:334px;width:944px;height:54px;opacity:0.62;z-index:23;">
 <img src="images/img0531.gif" id="Shape30" alt="" style="width:944px;height:54px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image76" style="position:absolute;left:7272px;top:201px;width:463px;height:184px;z-index:24;">
+<div class="frame" style="display:none">
+<div id="wb_Image76" style="position:absolute;left:564px;top:201px;width:463px;height:184px;z-index:24;">
 <img src="images/Garden%20%281%29.JPG" id="Image76" alt=""></div>
-<div id="wb_Image75" style="position:absolute;left:6788px;top:201px;width:484px;height:185px;z-index:25;">
+<div id="wb_Image75" style="position:absolute;left:80px;top:201px;width:484px;height:185px;z-index:25;">
 <img src="images/Garden%20%283%29.JPG" id="Image75" alt=""></div>
-<div id="wb_Image21" style="position:absolute;left:6788px;top:16px;width:482px;height:185px;z-index:26;">
+<div id="wb_Image21" style="position:absolute;left:80px;top:16px;width:482px;height:185px;z-index:26;">
 <img src="images/IMG_1076.JPG" id="Image21" alt=""></div>
-<div id="wb_Shape31" style="position:absolute;left:6788px;top:332px;width:950px;height:54px;opacity:0.62;z-index:27;">
+<div id="wb_Shape31" style="position:absolute;left:80px;top:332px;width:950px;height:54px;opacity:0.62;z-index:27;">
 <img src="images/img0561.gif" id="Shape31" alt="" style="width:950px;height:54px;"></div>
-<div id="wb_Image49" style="position:absolute;left:7272px;top:15px;width:463px;height:186px;z-index:28;">
+<div id="wb_Image49" style="position:absolute;left:564px;top:15px;width:463px;height:186px;z-index:28;">
 <img src="images/Garden%20%282%29.JPG" id="Image49" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image35" style="position:absolute;left:7905px;top:13px;width:960px;height:373px;z-index:29;">
+<div class="frame" style="display:none">
+<div id="wb_Image35" style="position:absolute;left:79px;top:13px;width:960px;height:373px;z-index:29;">
 <img src="images/8h0qem8flc.jpg" id="Image35" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image80" style="position:absolute;left:9649px;top:176px;width:358px;height:188px;z-index:30;">
+<div class="frame" style="display:none">
+<div id="wb_Image80" style="position:absolute;left:705px;top:176px;width:358px;height:188px;z-index:30;">
 <img src="images/PMSDP1%20%285%29.JPG" id="Image80" alt=""></div>
-<div id="wb_Image71" style="position:absolute;left:9320px;top:176px;width:329px;height:188px;z-index:31;">
+<div id="wb_Image71" style="position:absolute;left:376px;top:176px;width:329px;height:188px;z-index:31;">
 <img src="images/PMSDP1%20%284%29.JPG" id="Image71" alt=""></div>
-<div id="wb_Image70" style="position:absolute;left:8980px;top:176px;width:340px;height:188px;z-index:32;">
+<div id="wb_Image70" style="position:absolute;left:36px;top:176px;width:340px;height:188px;z-index:32;">
 <img src="images/PMSDP1%20%282%29.JPG" id="Image70" alt=""></div>
-<div id="wb_Shape36" style="position:absolute;left:8982px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:33;">
+<div id="wb_Shape36" style="position:absolute;left:38px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:33;">
 <img src="images/img0465.gif" id="Shape36" alt="" style="width:1025px;height:45px;"></div>
-<div id="wb_Image34" style="position:absolute;left:8980px;top:8px;width:340px;height:168px;z-index:34;">
+<div id="wb_Image34" style="position:absolute;left:36px;top:8px;width:340px;height:168px;z-index:34;">
 <img src="images/PMSDP1%20%281%29.JPG" id="Image34" alt=""></div>
-<div id="wb_Image68" style="position:absolute;left:9313px;top:8px;width:340px;height:168px;z-index:35;">
+<div id="wb_Image68" style="position:absolute;left:369px;top:8px;width:340px;height:168px;z-index:35;">
 <img src="images/PMSDP1%20%286%29.JPG" id="Image68" alt=""></div>
-<div id="wb_Image69" style="position:absolute;left:9653px;top:11px;width:354px;height:165px;z-index:36;">
+<div id="wb_Image69" style="position:absolute;left:709px;top:11px;width:354px;height:165px;z-index:36;">
 <img src="images/PMSDP1%20%283%29.JPG" id="Image69" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image110" style="position:absolute;left:10806px;top:191px;width:361px;height:180px;z-index:37;">
+<div class="frame" style="display:none">
+<div id="wb_Image110" style="position:absolute;left:744px;top:191px;width:361px;height:180px;z-index:37;">
 <img src="images/yuuuyuyuuyuuuudubd.JPG" id="Image110" alt=""></div>
-<div id="wb_Image22" style="position:absolute;left:10075px;top:7px;width:361px;height:180px;z-index:38;">
+<div id="wb_Image22" style="position:absolute;left:13px;top:7px;width:361px;height:180px;z-index:38;">
 <img src="images/gathering.JPG" id="Image22" alt=""></div>
-<div id="wb_Image19" style="position:absolute;left:10441px;top:7px;width:361px;height:180px;z-index:39;">
+<div id="wb_Image19" style="position:absolute;left:379px;top:7px;width:361px;height:180px;z-index:39;">
 <img src="images/dCapture2-2-3.JPG" id="Image19" alt=""></div>
-<div id="wb_Image23" style="position:absolute;left:10076px;top:191px;width:361px;height:180px;z-index:40;">
+<div id="wb_Image23" style="position:absolute;left:14px;top:191px;width:361px;height:180px;z-index:40;">
 <img src="images/ddddkd.JPG" id="Image23" alt=""></div>
-<div id="wb_Image31" style="position:absolute;left:10807px;top:8px;width:361px;height:180px;z-index:41;">
+<div id="wb_Image31" style="position:absolute;left:745px;top:8px;width:361px;height:180px;z-index:41;">
 <img src="images/dmldmlmdolmd.JPG" id="Image31" alt=""></div>
-<div id="wb_Image41" style="position:absolute;left:10441px;top:190px;width:361px;height:180px;z-index:42;">
+<div id="wb_Image41" style="position:absolute;left:379px;top:190px;width:361px;height:180px;z-index:42;">
 <img src="images/sss-fnifkfnuojf.JPG" id="Image41" alt=""></div>
-<div id="wb_Shape52" style="position:absolute;left:10073px;top:326px;width:1099px;height:46px;opacity:0.62;z-index:43;">
+<div id="wb_Shape52" style="position:absolute;left:11px;top:326px;width:1099px;height:46px;opacity:0.62;z-index:43;">
 <img src="images/img0791.gif" id="Shape52" alt="" style="width:1099px;height:46px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image108" style="position:absolute;left:11596px;top:203px;width:275px;height:178px;z-index:44;">
+<div class="frame" style="display:none">
+<div id="wb_Image108" style="position:absolute;left:416px;top:203px;width:275px;height:178px;z-index:44;">
 <img src="images/img2190.jpg" id="Image108" alt=""></div>
-<div id="wb_Image107" style="position:absolute;left:11259px;top:203px;width:332px;height:178px;z-index:45;">
+<div id="wb_Image107" style="position:absolute;left:79px;top:203px;width:332px;height:178px;z-index:45;">
 <img src="images/2f%20Inspection%20visit%20%282%29.jpg" id="Image107" alt=""></div>
-<div id="wb_Image102" style="position:absolute;left:11876px;top:204px;width:335px;height:177px;z-index:46;">
+<div id="wb_Image102" style="position:absolute;left:696px;top:204px;width:335px;height:177px;z-index:46;">
 <img src="images/2f%20Inspection%20visit%20%285%29.jpg" id="Image102" alt=""></div>
-<div id="wb_Shape54" style="position:absolute;left:11259px;top:329px;width:953px;height:54px;opacity:0.62;z-index:47;">
+<div id="wb_Shape54" style="position:absolute;left:79px;top:329px;width:953px;height:54px;opacity:0.62;z-index:47;">
 <img src="images/img0792.gif" id="Shape54" alt="" style="width:953px;height:54px;"></div>
-<div id="wb_Image72" style="position:absolute;left:11259px;top:8px;width:334px;height:191px;z-index:48;">
+<div id="wb_Image72" style="position:absolute;left:79px;top:8px;width:334px;height:191px;z-index:48;">
 <img src="images/2f%20Inspection%20visit%20%283%29.jpg" id="Image72" alt=""></div>
-<div id="wb_Image101" style="position:absolute;left:11876px;top:8px;width:334px;height:191px;z-index:49;">
+<div id="wb_Image101" style="position:absolute;left:696px;top:8px;width:334px;height:191px;z-index:49;">
 <img src="images/2f%20Inspection%20visit%20%288%29.jpg" id="Image101" alt=""></div>
-<div id="wb_Image106" style="position:absolute;left:11595px;top:8px;width:277px;height:191px;z-index:50;">
+<div id="wb_Image106" style="position:absolute;left:415px;top:8px;width:277px;height:191px;z-index:50;">
 <img src="images/img2191.jpg" id="Image106" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image43" style="position:absolute;left:12378px;top:9px;width:466px;height:371px;z-index:51;">
+<div class="frame" style="display:none">
+<div id="wb_Image43" style="position:absolute;left:80px;top:9px;width:466px;height:371px;z-index:51;">
 <img src="images/IMG-20160618-WA0004-1.jpg" id="Image43" alt=""></div>
-<div id="wb_Image44" style="position:absolute;left:12849px;top:9px;width:492px;height:371px;z-index:52;">
+<div id="wb_Image44" style="position:absolute;left:551px;top:9px;width:492px;height:371px;z-index:52;">
 <img src="images/IMG-20160618-WA0005.jpg" id="Image44" alt=""></div>
-<div id="wb_Shape55" style="position:absolute;left:12378px;top:336px;width:965px;height:46px;opacity:0.62;z-index:53;">
+<div id="wb_Shape55" style="position:absolute;left:80px;top:336px;width:965px;height:46px;opacity:0.62;z-index:53;">
 <img src="images/img0859.gif" id="Shape55" alt="" style="width:965px;height:46px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image37" style="position:absolute;left:13492px;top:4px;width:322px;height:183px;z-index:54;">
+<div class="frame" style="display:none">
+<div id="wb_Image37" style="position:absolute;left:76px;top:4px;width:322px;height:183px;z-index:54;">
 <img src="images/Captureajbjd%20k.JPG" id="Image37" alt=""></div>
-<div id="wb_Image36" style="position:absolute;left:13818px;top:4px;width:322px;height:183px;z-index:55;">
+<div id="wb_Image36" style="position:absolute;left:402px;top:4px;width:322px;height:183px;z-index:55;">
 <img src="images/jbjsbjsbs.JPG" id="Image36" alt=""></div>
-<div id="wb_Image38" style="position:absolute;left:13492px;top:191px;width:322px;height:183px;z-index:56;">
+<div id="wb_Image38" style="position:absolute;left:76px;top:191px;width:322px;height:183px;z-index:56;">
 <img src="images/f%20jfbf.JPG" id="Image38" alt=""></div>
-<div id="wb_Image39" style="position:absolute;left:13818px;top:191px;width:322px;height:183px;z-index:57;">
+<div id="wb_Image39" style="position:absolute;left:402px;top:191px;width:322px;height:183px;z-index:57;">
 <img src="images/frebsjbss.JPG" id="Image39" alt=""></div>
-<div id="wb_Image40" style="position:absolute;left:14144px;top:4px;width:325px;height:185px;z-index:58;">
+<div id="wb_Image40" style="position:absolute;left:728px;top:4px;width:325px;height:185px;z-index:58;">
 <img src="images/%2Cosss.JPG" id="Image40" alt=""></div>
-<div id="wb_Image112" style="position:absolute;left:14144px;top:190px;width:325px;height:185px;z-index:59;">
+<div id="wb_Image112" style="position:absolute;left:728px;top:190px;width:325px;height:185px;z-index:59;">
 <img src="images/s.sss.JPG" id="Image112" alt=""></div>
-<div id="wb_Shape57" style="position:absolute;left:13492px;top:334px;width:977px;height:48px;opacity:0.62;z-index:60;">
+<div id="wb_Shape57" style="position:absolute;left:76px;top:334px;width:977px;height:48px;opacity:0.62;z-index:60;">
 <img src="images/img1015.gif" id="Shape57" alt="" style="width:977px;height:48px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image54" style="position:absolute;left:15249px;top:196px;width:314px;height:184px;z-index:61;">
+<div class="frame" style="display:none">
+<div id="wb_Image54" style="position:absolute;left:715px;top:196px;width:314px;height:184px;z-index:61;">
 <img src="images/vanmosta_jul_2017%20%286%29.JPG" id="Image54" alt=""></div>
-<div id="wb_Image132" style="position:absolute;left:14928px;top:196px;width:314px;height:184px;z-index:62;">
+<div id="wb_Image132" style="position:absolute;left:394px;top:196px;width:314px;height:184px;z-index:62;">
 <img src="images/vanmosta_jul_2017%20%284%29.JPG" id="Image132" alt=""></div>
-<div id="wb_Image53" style="position:absolute;left:14608px;top:6px;width:314px;height:184px;z-index:63;">
+<div id="wb_Image53" style="position:absolute;left:74px;top:6px;width:314px;height:184px;z-index:63;">
 <img src="images/vanmosta_jul_2017%20%2816%29.JPG" id="Image53" alt=""></div>
-<div id="wb_Image48" style="position:absolute;left:14608px;top:195px;width:314px;height:184px;z-index:64;">
+<div id="wb_Image48" style="position:absolute;left:74px;top:195px;width:314px;height:184px;z-index:64;">
 <img src="images/vanmosta_jul_2017%20%2820%29.JPG" id="Image48" alt=""></div>
-<div id="wb_Shape58" style="position:absolute;left:14606px;top:333px;width:960px;height:52px;opacity:0.80;z-index:65;">
+<div id="wb_Shape58" style="position:absolute;left:72px;top:333px;width:960px;height:52px;opacity:0.80;z-index:65;">
 <img src="images/img1016.gif" id="Shape58" alt="" style="width:960px;height:52px;"></div>
-<div id="wb_Image47" style="position:absolute;left:15249px;top:6px;width:314px;height:184px;z-index:66;">
+<div id="wb_Image47" style="position:absolute;left:715px;top:6px;width:314px;height:184px;z-index:66;">
 <img src="images/vanmosta_jul_2017%20%2827%29.JPG" id="Image47" alt=""></div>
-<div id="wb_Image3" style="position:absolute;left:14928px;top:6px;width:314px;height:184px;z-index:67;">
+<div id="wb_Image3" style="position:absolute;left:394px;top:6px;width:314px;height:184px;z-index:67;">
 <img src="images/vanmosta_jul_2017%20%288%29.JPG" id="Image3" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image50" style="position:absolute;left:16057px;top:25px;width:336px;height:312px;z-index:68;">
+<div class="frame" style="display:none">
+<div id="wb_Image50" style="position:absolute;left:405px;top:25px;width:336px;height:312px;z-index:68;">
 <img src="images/gym.png" id="Image50" alt=""></div>
-<div id="wb_Image52" style="position:absolute;left:16385px;top:25px;width:363px;height:312px;z-index:69;">
+<div id="wb_Image52" style="position:absolute;left:733px;top:25px;width:363px;height:312px;z-index:69;">
 <img src="images/boy.png" id="Image52" alt=""></div>
-<div id="wb_Image51" style="position:absolute;left:15670px;top:25px;width:396px;height:312px;z-index:70;">
+<div id="wb_Image51" style="position:absolute;left:18px;top:25px;width:396px;height:312px;z-index:70;">
 <img src="images/girls.png" id="Image51" alt=""></div>
-<div id="wb_Shape59" style="position:absolute;left:15678px;top:335px;width:1063px;height:49px;opacity:0.80;z-index:71;">
+<div id="wb_Shape59" style="position:absolute;left:26px;top:335px;width:1063px;height:49px;opacity:0.80;z-index:71;">
 <img src="images/img1185.gif" id="Shape59" alt="" style="width:1063px;height:49px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image74" style="position:absolute;left:16848px;top:13px;width:469px;height:368px;z-index:72;">
+<div class="frame" style="display:none">
+<div id="wb_Image74" style="position:absolute;left:78px;top:13px;width:469px;height:368px;z-index:72;">
 <img src="images/IMG_20160822_091244.jpg" id="Image74" alt=""></div>
-<div id="wb_Image56" style="position:absolute;left:17320px;top:13px;width:493px;height:366px;z-index:73;">
+<div id="wb_Image56" style="position:absolute;left:550px;top:13px;width:493px;height:366px;z-index:73;">
 <img src="images/International%20journal.JPG" id="Image56" alt=""></div>
-<div id="wb_Shape60" style="position:absolute;left:16848px;top:337px;width:967px;height:46px;opacity:0.62;z-index:74;">
+<div id="wb_Shape60" style="position:absolute;left:78px;top:337px;width:967px;height:46px;opacity:0.62;z-index:74;">
 <img src="images/img1252.gif" id="Shape60" alt="" style="width:967px;height:46px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image7" style="position:absolute;left:17969px;top:14px;width:948px;height:370px;z-index:75;">
+<div class="frame" style="display:none">
+<div id="wb_Image7" style="position:absolute;left:81px;top:14px;width:948px;height:370px;z-index:75;">
 <img src="images/varshagranth2-18.jpg" id="Image7" alt=""></div>
-<div id="wb_Shape61" style="position:absolute;left:17967px;top:327px;width:950px;height:58px;opacity:0.80;z-index:76;">
+<div id="wb_Shape61" style="position:absolute;left:79px;top:327px;width:950px;height:58px;opacity:0.80;z-index:76;">
 <img src="images/img0784.gif" id="Shape61" alt="" style="width:950px;height:58px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image94" style="position:absolute;left:19730px;top:193px;width:342px;height:182px;z-index:77;">
+<div class="frame" style="display:none">
+<div id="wb_Image94" style="position:absolute;left:724px;top:193px;width:342px;height:182px;z-index:77;">
 <img src="images/unapdev%20tour%20%289%29.jpg" id="Image94" alt=""></div>
-<div id="wb_Image92" style="position:absolute;left:19384px;top:193px;width:342px;height:182px;z-index:78;">
+<div id="wb_Image92" style="position:absolute;left:378px;top:193px;width:342px;height:182px;z-index:78;">
 <img src="images/unapdev%20tour%20%285%29.jpg" id="Image92" alt=""></div>
-<div id="wb_Image42" style="position:absolute;left:19038px;top:7px;width:340px;height:180px;z-index:79;">
+<div id="wb_Image42" style="position:absolute;left:32px;top:7px;width:340px;height:180px;z-index:79;">
 <img src="images/unapdev%20tour%20%282%29.jpg" id="Image42" alt=""></div>
-<div id="wb_Image63" style="position:absolute;left:19382px;top:7px;width:342px;height:182px;z-index:80;">
+<div id="wb_Image63" style="position:absolute;left:376px;top:7px;width:342px;height:182px;z-index:80;">
 <img src="images/unapdev%20tour%20%2810%29.jpg" id="Image63" alt=""></div>
-<div id="wb_Image73" style="position:absolute;left:19038px;top:191px;width:342px;height:182px;z-index:81;">
+<div id="wb_Image73" style="position:absolute;left:32px;top:191px;width:342px;height:182px;z-index:81;">
 <img src="images/unapdev%20tour%20%288%29.jpg" id="Image73" alt=""></div>
-<div id="wb_Image64" style="position:absolute;left:19728px;top:7px;width:342px;height:182px;z-index:82;">
+<div id="wb_Image64" style="position:absolute;left:722px;top:7px;width:342px;height:182px;z-index:82;">
 <img src="images/unapdev%20tour%20%2812%29.jpg" id="Image64" alt=""></div>
-<div id="wb_Shape64" style="position:absolute;left:19038px;top:333px;width:1036px;height:45px;opacity:0.72;z-index:83;">
+<div id="wb_Shape64" style="position:absolute;left:32px;top:333px;width:1036px;height:45px;opacity:0.72;z-index:83;">
 <img src="images/img2067.gif" id="Shape64" alt="" style="width:1036px;height:45px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image59" style="position:absolute;left:20860px;top:187px;width:338px;height:191px;z-index:84;">
+<div class="frame" style="display:none">
+<div id="wb_Image59" style="position:absolute;left:736px;top:187px;width:338px;height:191px;z-index:84;">
 <img src="images/hwj7vdthqu.jpg" id="Image59" alt=""></div>
-<div id="wb_Image58" style="position:absolute;left:20520px;top:189px;width:338px;height:191px;z-index:85;">
+<div id="wb_Image58" style="position:absolute;left:396px;top:189px;width:338px;height:191px;z-index:85;">
 <img src="images/facility20194.JPG" id="Image58" alt=""></div>
-<div id="wb_Image55" style="position:absolute;left:20177px;top:189px;width:338px;height:191px;z-index:86;">
+<div id="wb_Image55" style="position:absolute;left:53px;top:189px;width:338px;height:191px;z-index:86;">
 <img src="images/rlao18spej.jpg" id="Image55" alt=""></div>
-<div id="wb_Shape29" style="position:absolute;left:20173px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:87;">
+<div id="wb_Shape29" style="position:absolute;left:49px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:87;">
 <img src="images/img0021.gif" id="Shape29" alt="" style="width:1025px;height:45px;"></div>
-<div id="wb_Image32" style="position:absolute;left:20177px;top:9px;width:338px;height:178px;z-index:88;">
+<div id="wb_Image32" style="position:absolute;left:53px;top:9px;width:338px;height:178px;z-index:88;">
 <img src="images/cvsjn0v0mr.jpg" id="Image32" alt=""></div>
-<div id="wb_Image30" style="position:absolute;left:20519px;top:9px;width:338px;height:178px;z-index:89;">
+<div id="wb_Image30" style="position:absolute;left:395px;top:9px;width:338px;height:178px;z-index:89;">
 <img src="images/ndddqb0lko.jpg" id="Image30" alt=""></div>
-<div id="wb_Image46" style="position:absolute;left:20860px;top:9px;width:338px;height:178px;z-index:90;">
+<div id="wb_Image46" style="position:absolute;left:736px;top:9px;width:338px;height:178px;z-index:90;">
 <img src="images/xp01fdtof4.jpg" id="Image46" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image60" style="position:absolute;left:21292px;top:13px;width:338px;height:178px;z-index:91;">
+<div class="frame" style="display:none">
+<div id="wb_Image60" style="position:absolute;left:50px;top:13px;width:338px;height:178px;z-index:91;">
 <img src="images/imge201991%20%282%29.jpg" id="Image60" alt=""></div>
-<div id="wb_Image61" style="position:absolute;left:21632px;top:13px;width:338px;height:178px;z-index:92;">
+<div id="wb_Image61" style="position:absolute;left:390px;top:13px;width:338px;height:178px;z-index:92;">
 <img src="images/imge201991%20%284%29.jpg" id="Image61" alt=""></div>
-<div id="wb_Image62" style="position:absolute;left:21973px;top:13px;width:338px;height:178px;z-index:93;">
+<div id="wb_Image62" style="position:absolute;left:731px;top:13px;width:338px;height:178px;z-index:93;">
 <img src="images/imge201991%20%283%29.jpg" id="Image62" alt=""></div>
-<div id="wb_Image66" style="position:absolute;left:21633px;top:195px;width:338px;height:178px;z-index:94;">
+<div id="wb_Image66" style="position:absolute;left:391px;top:195px;width:338px;height:178px;z-index:94;">
 <img src="images/imge201991%20%288%29.jpg" id="Image66" alt=""></div>
-<div id="wb_Image65" style="position:absolute;left:21293px;top:195px;width:336px;height:176px;z-index:95;">
+<div id="wb_Image65" style="position:absolute;left:51px;top:195px;width:336px;height:176px;z-index:95;">
 <img src="images/imge201991%20%2810%29.jpg" id="Image65" alt=""></div>
-<div id="wb_Image67" style="position:absolute;left:21975px;top:195px;width:338px;height:178px;z-index:96;">
+<div id="wb_Image67" style="position:absolute;left:733px;top:195px;width:338px;height:178px;z-index:96;">
 <img src="images/imge201991%20%2815%29.jpg" id="Image67" alt=""></div>
-<div id="wb_Shape32" style="position:absolute;left:21292px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:97;">
+<div id="wb_Shape32" style="position:absolute;left:50px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:97;">
 <img src="images/img0413.gif" id="Shape32" alt="" style="width:1025px;height:45px;"></div>
 </div>
-<div class="frame">
-<div id="wb_Image81" style="position:absolute;left:22911px;top:167px;width:332px;height:213px;z-index:98;">
+<div class="frame" style="display:none">
+<div id="wb_Image81" style="position:absolute;left:551px;top:167px;width:332px;height:213px;z-index:98;">
 <img src="images/training%20%281%295-may.JPG" id="Image81" alt=""></div>
-<div id="wb_Image89" style="position:absolute;left:22401px;top:11px;width:510px;height:369px;z-index:99;">
+<div id="wb_Image89" style="position:absolute;left:41px;top:11px;width:510px;height:369px;z-index:99;">
 <img src="images/training%20%284%295-may.JPG" id="Image89" alt=""></div>
-<div id="wb_Image88" style="position:absolute;left:23244px;top:8px;width:182px;height:372px;z-index:100;">
+<div id="wb_Image88" style="position:absolute;left:884px;top:8px;width:182px;height:372px;z-index:100;">
 <img src="images/training%20%283%295-may.JPG" id="Image88" alt=""></div>
-<div id="wb_Shape56" style="position:absolute;left:22401px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:101;">
+<div id="wb_Shape56" style="position:absolute;left:41px;top:335px;width:1025px;height:45px;opacity:0.72;z-index:101;">
 <img src="images/img0469.gif" id="Shape56" alt="" style="width:1025px;height:45px;"></div>
-<div id="wb_Image87" style="position:absolute;left:22907px;top:8px;width:336px;height:159px;z-index:102;">
+<div id="wb_Image87" style="position:absolute;left:547px;top:8px;width:336px;height:159px;z-index:102;">
 <img src="images/training%20%282%295-may.JPG" id="Image87" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image98" style="position:absolute;left:24204px;top:187px;width:330px;height:180px;z-index:103;">
+<div class="frame" style="display:none">
+<div id="wb_Image98" style="position:absolute;left:726px;top:187px;width:330px;height:180px;z-index:103;">
 <img src="images/event10may%20%2821%29.jpg" id="Image98" alt=""></div>
-<div id="wb_Image96" style="position:absolute;left:23873px;top:187px;width:330px;height:180px;z-index:104;">
+<div id="wb_Image96" style="position:absolute;left:395px;top:187px;width:330px;height:180px;z-index:104;">
 <img src="images/event10may%20%2829%29.jpg" id="Image96" alt=""></div>
-<div id="wb_Image95" style="position:absolute;left:23544px;top:187px;width:330px;height:180px;z-index:105;">
+<div id="wb_Image95" style="position:absolute;left:66px;top:187px;width:330px;height:180px;z-index:105;">
 <img src="images/event10may%20%284%29.jpg" id="Image95" alt=""></div>
-<div id="wb_Shape63" style="position:absolute;left:23544px;top:310px;width:990px;height:57px;opacity:0.72;z-index:106;">
+<div id="wb_Shape63" style="position:absolute;left:66px;top:310px;width:990px;height:57px;opacity:0.72;z-index:106;">
 <img src="images/img0470.gif" id="Shape63" alt="" style="width:990px;height:57px;"></div>
-<div id="wb_Image90" style="position:absolute;left:23544px;top:7px;width:330px;height:180px;z-index:107;">
+<div id="wb_Image90" style="position:absolute;left:66px;top:7px;width:330px;height:180px;z-index:107;">
 <img src="images/event10may%20%281%29.jpg" id="Image90" alt=""></div>
-<div id="wb_Image91" style="position:absolute;left:23874px;top:7px;width:330px;height:180px;z-index:108;">
+<div id="wb_Image91" style="position:absolute;left:396px;top:7px;width:330px;height:180px;z-index:108;">
 <img src="images/event10may%20%2814%29.jpg" id="Image91" alt=""></div>
-<div id="wb_Image93" style="position:absolute;left:24204px;top:7px;width:330px;height:180px;z-index:109;">
+<div id="wb_Image93" style="position:absolute;left:726px;top:7px;width:330px;height:180px;z-index:109;">
 <img src="images/event10may%20%2823%29.jpg" id="Image93" alt=""></div>
 </div>
-<div class="frame">
-<div id="wb_Image109" style="position:absolute;left:24662px;top:194px;width:356px;height:183px;z-index:110;">
+<div class="frame" style="display:none">
+<div id="wb_Image109" style="position:absolute;left:66px;top:194px;width:356px;height:183px;z-index:110;">
 <img src="images/FB_IMG_1562952760501.jpg" id="Image109" alt=""></div>
-<div id="wb_Image99" style="position:absolute;left:24663px;top:9px;width:356px;height:181px;z-index:111;">
+<div id="wb_Image99" style="position:absolute;left:67px;top:9px;width:356px;height:181px;z-index:111;">
 <img src="images/FB_IMG_1562952753870.jpg" id="Image99" alt=""></div>
-<div id="wb_Image111" style="position:absolute;left:25021px;top:5px;width:630px;height:371px;z-index:112;">
+<div id="wb_Image111" style="position:absolute;left:425px;top:5px;width:630px;height:371px;z-index:112;">
 <img src="images/FB_IMG_1562952772529.jpg" id="Image111" alt=""></div>
-<div id="wb_Shape65" style="position:absolute;left:24659px;top:322px;width:990px;height:57px;opacity:0.72;z-index:113;">
+<div id="wb_Shape65" style="position:absolute;left:63px;top:322px;width:990px;height:57px;opacity:0.72;z-index:113;">
 <a href=""><img class="hover" src="images/img0471_hover.gif" alt="" style="border-width:0;width:990px;height:57px;"><span><img src="images/img0471.gif" id="Shape65" alt="" style="width:990px;height:57px;"></span></a></div>
 </div>
-<div class="frame">
-<div id="wb_Image114" style="position:absolute;left:25733px;top:7px;width:1071px;height:371px;z-index:114;">
+<div class="frame" style="display:none">
+<div id="wb_Image114" style="position:absolute;left:19px;top:7px;width:1071px;height:371px;z-index:114;">
 <img src="WhatsApp%20Image%202020-08-30%20at%209.45.01%20PM.jpeg" id="Image114" alt=""></div>
 </div>
 </div>
 </div>
-<div id="wb_Text24" style="position:absolute;left:87px;top:81px;width:48px;height:20px;z-index:206;">
+<div id="wb_Text24" style="position:absolute;left:87px;top:81px;width:48px;height:20px;z-index:205;">
 <span style="color:#DC143C;font-family:'Trebuchet MS';font-size:15px;"><strong><u><a href="C-9004-.pdf">AISHE</a></u></strong></span></div>
-<div id="wb_Text22" style="position:absolute;left:148px;top:81px;width:87px;height:20px;z-index:207;">
+<div id="wb_Text22" style="position:absolute;left:148px;top:81px;width:87px;height:20px;z-index:206;">
 <span style="color:#DC143C;font-family:'Trebuchet MS';font-size:15px;"><strong><u><a href="NIRF Overall 2021-merged.pdf">NIRF 2021</a></u></strong></span></div>
-<div id="wb_Image113" style="position:absolute;left:689px;top:2052px;width:78px;height:78px;z-index:208;">
+<div id="wb_Image113" style="position:absolute;left:689px;top:2052px;width:78px;height:78px;z-index:207;">
 <a href="http://www.dtemaharashtra.gov.in/index.html"><img src="http://www.dtemaharashtra.gov.in/images/dte-logo.gif" id="Image113" alt=""></a></div>
-<div id="wb_Text23" style="position:absolute;left:134px;top:908px;width:568px;height:100px;z-index:209;">
+<div id="wb_Text23" style="position:absolute;left:134px;top:908px;width:568px;height:100px;z-index:208;">
 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:16px;line-height:22px;"><strong>President’s Message <br></strong></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:15px;line-height:22px;"><strong><br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; “Education is not preparation for life, Education is life itself”.<br></strong></span></div>
-<picture id="wb_Picture2" style="position:absolute;left:14px;top:1388px;width:173px;height:108px;z-index:210">
+<picture id="wb_Picture2" style="position:absolute;left:14px;top:1388px;width:173px;height:108px;z-index:209">
 <img src="images/princijksnkdjnjnjdnjndjnjd.jpg" id="Picture2" alt="" srcset="">
 </picture>
-<div id="wb_Text6" style="position:absolute;left:198px;top:1397px;width:513px;height:131px;text-align:justify;z-index:211;">
+<div id="wb_Text6" style="position:absolute;left:198px;top:1397px;width:513px;height:131px;text-align:justify;z-index:210;">
 <span style="color:#2F4F4F;font-family:'Trebuchet MS';font-size:16px;line-height:44px;"><strong>From Principal's Desk</strong><br></span><span style="color:#2F4F4F;font-family:'Trebuchet MS';font-size:15px;line-height:21px;"><strong>&nbsp;&nbsp; “Education is not the learning of facts, but the training of the mind to think.”</strong></span><span style="color:#2F4F4F;font-family:'Trebuchet MS';font-size:16px;line-height:22px;"><strong><br></strong></span></div>
-<div id="wb_Text7" style="position:absolute;left:15px;top:1024px;width:695px;height:330px;text-align:justify;z-index:212;">
+<div id="wb_Text7" style="position:absolute;left:15px;top:1024px;width:695px;height:330px;text-align:justify;z-index:211;">
 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:15px;line-height:22px;"><strong>Dear students,</strong><br>Smt. Sharadchandrika Suresh Patil College of Pharmacy have a vision:&nbsp; &#8220;To nurture excellence in pharmacy Profession and mould the Institution into a center of deft pharmacy professionals&#8221;. The college aims at preparing the students as Pharmacists and making them aware of their rights and duties stipulated on moral issues based on pharmacy ethics and values. Education is the most authoritative tool to bring desirable changes in our personality and also to bring positive changes in our society. It is the only medium which enables you to move from darkness to brightness. As an established and highly esteemed institution, we maintain highest academic standard, incorporated with the conduct of discipline, thereby achieving remarkable and excellent percentage of results. Insightful and enthusiastic faculty is always ready to extend their help wholeheartedly for the integral development of the students. The hard work of today is the success of the future. The time and effort you spend today are the deciding factors of your future years.<br>I wish you all the best!<br><br><strong>Hon. Adv. Bhaiyasaheb Sandeep Suresh Patil</strong></span></div>
-<div id="wb_Text9" style="position:absolute;left:9px;top:1489px;width:696px;height:482px;text-align:justify;z-index:213;">
+<div id="wb_Text9" style="position:absolute;left:9px;top:1489px;width:696px;height:482px;text-align:justify;z-index:212;">
 <span style="color:#2F4F4F;font-family:'Trebuchet MS';font-size:15px;line-height:29px;"><strong>Dear Students!<br></strong>We at SMTSSPCOP have a mission: “We are committed to deliver quality Pharmacy education in order to mould the learners into globally competitive Pharmacists who are professionally, intellectually adept and socially responsible”.Our teachers work hard throughout the year with the students to provide them high quality educational experience in the form of debates, group discussions, workshops, symposia, seminars and cultural competitions. The college regularly organizes National and International conference to provide the knowledge and guidance on various topics of pharmaceutical sciences. Distinguished personalities are invited from all walks of life to give speech to our students and expose them to new ideas and thoughts. With experienced and dedicated teachers and excellent infrastructure, our college helps students to realize their goals in life. I encourage all students to take advantage of the opportunities provided by the college and involve themselves in all the extra-curricular activities that are offered. The overall development of the mind and body is indication of a healthy and complete development.<br>I wish you all the best!<br></span><span style="color:#2F4F4F;font-family:'Trebuchet MS';font-size:15px;line-height:29px;"><br></span><span style="color:#2F4F4F;font-family:'Trebuchet MS';font-size:16px;line-height:29px;"><strong>Prof. Dr. Gautam P. Vadnere</strong><br></span></div>
-<div id="wb_Text8" style="position:absolute;left:241px;top:81px;width:175px;height:20px;z-index:214;">
+<div id="wb_Text8" style="position:absolute;left:241px;top:81px;width:175px;height:20px;z-index:213;">
 <span style="color:#DC143C;font-family:'Trebuchet MS';font-size:15px;"><strong><u><a href="Final SIF Report 2022-2023 new.pdf">SIF Report 2022-2023</a></u></strong></span></div>
-<div id="wb_MenuBar2" style="position:absolute;left:819px;top:76px;width:110px;height:98px;z-index:1215;">
+<div id="wb_MenuBar2" style="position:absolute;left:819px;top:76px;width:110px;height:98px;z-index:1214;">
 <div id="MenuBar2">
 <ul style="display:none;">
 <li><span></span><span>Audit&nbsp;Statement</span>
@@ -671,6 +670,8 @@ var cmMenuBar2MainHSplit = [_cmNoClick, '<td colspan="3" class="MenuBar2MainSpli
 cmDrawFromText('MenuBar2', 'hbr', cmMenuBar2, 'MenuBar2');
 </script>
 </div>
+<div id="wb_Image45" style="position:absolute;left:3px;top:3px;width:75px;height:50px;z-index:215;">
+<img src="images/unnamed.png" id="Image45" alt=""></div>
 </div>
 <div id="PageFooter1" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:2406px;width:100%;height:289px;z-index:216;">
 <div id="PageFooter1_Container" style="width:1122px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
