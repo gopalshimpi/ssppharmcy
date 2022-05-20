@@ -1524,6 +1524,11 @@ body
    border: 0;
    font-size: 1px;
 }
+#Shape5
+{
+   border-width: 0;
+   vertical-align: top;
+}
 #PageFooter1
 {
    background-color: #2F4F4F;
