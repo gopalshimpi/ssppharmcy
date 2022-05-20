@@ -6,13 +6,13 @@ div#space
 {
    width: 1px;
    height: 50%;
-   margin-bottom: -602px;
+   margin-bottom: -618px;
    float:left
 }
 div#container
 {
    width: 1125px;
-   height: 1205px;
+   height: 1236px;
    margin: 0 auto;
    position: relative;
    clear: left;
@@ -1577,6 +1577,11 @@ body
    vertical-align: top;
 }
 #Shape37
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape38
 {
    border-width: 0;
    vertical-align: top;
