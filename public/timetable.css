@@ -1474,262 +1474,6 @@ body
    box-sizing: border-box;
    font-size: 0px;
 }
-#wb_Shape4 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape4 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape4 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape4 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape4 a:hover span
-{
-   visibility: hidden;
-}
-#Shape4
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape7 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape7 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape7 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape7 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape7 a:hover span
-{
-   visibility: hidden;
-}
-#Shape7
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape8 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape8 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape8 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape8 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape8 a:hover span
-{
-   visibility: hidden;
-}
-#Shape8
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape11 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape11 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape11 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape11 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape11 a:hover span
-{
-   visibility: hidden;
-}
-#Shape11
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape12 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape12 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape12 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape12 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape12 a:hover span
-{
-   visibility: hidden;
-}
-#Shape12
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape13 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape13 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape13 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape13 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape13 a:hover span
-{
-   visibility: hidden;
-}
-#Shape13
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape14 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape14 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape14 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape14 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape14 a:hover span
-{
-   visibility: hidden;
-}
-#Shape14
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape15 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape15 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape15 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape15 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape15 a:hover span
-{
-   visibility: hidden;
-}
-#Shape15
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape19 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape19 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape19 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape19 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape19 a:hover span
-{
-   visibility: hidden;
-}
-#Shape19
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text4 div
-{
-   text-align: left;
-}
 #wb_Text5 
 {
    background-color: transparent;
@@ -2402,6 +2146,84 @@ body
    top: 0;
    width: 100%;
    height: 100%;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text52 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text52 div
+{
+   text-align: left;
+}
+#wb_Text53 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text53 div
+{
+   text-align: left;
+}
+#wb_Text54 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text54 div
+{
+   text-align: left;
+}
+#wb_Text55 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text55 div
+{
+   text-align: left;
+}
+#wb_Text56 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text56 div
+{
+   text-align: left;
 }
 #PageFooter1
 {
