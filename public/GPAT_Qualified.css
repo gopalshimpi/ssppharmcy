@@ -6,13 +6,13 @@ div#space
 {
    width: 1px;
    height: 50%;
-   margin-bottom: -526px;
+   margin-bottom: -616px;
    float:left
 }
 div#container
 {
    width: 1139px;
-   height: 1053px;
+   height: 1233px;
    margin: 0 auto;
    position: relative;
    clear: left;
@@ -1785,6 +1785,14 @@ body
 #wb_Text7 div
 {
    text-align: left;
+}
+#SlideShow1 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: auto;
+   height: 100%;
 }
 #PageFooter1
 {
