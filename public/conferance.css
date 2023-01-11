@@ -1151,7 +1151,7 @@ body
 {
    font-family: "Trebuchet MS";
    font-weight: normal;
-   font-size: 13px;
+   font-size: 11px;
    line-height: 1.0;
    padding: 4px 4px 0px 4px;
 }
@@ -1160,7 +1160,7 @@ body
    font-family: "Trebuchet MS";
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
    margin: 0px 2px -1px 0px;
    text-align: left;
 }
@@ -1180,7 +1180,7 @@ body
 }
 #jQueryTabs1 .ui-helper-reset
 {
-   line-height: 18px;
+   line-height: 16px;
 }
 #jQueryTabs1 .ui-tabs-panel
 {
@@ -1193,7 +1193,7 @@ body
 {
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 11px;
 }
 #Image3
 {
@@ -2532,6 +2532,31 @@ body
 #wb_Text111 div
 {
    text-align: left;
+}
+#SlideShow12 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SlideShow12 a:not(:first-child) .image
+{
+   display: none;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8 div
+{
+   text-align: center;
 }
 #PageFooter1
 {
