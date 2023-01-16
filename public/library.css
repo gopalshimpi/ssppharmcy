@@ -1605,6 +1605,29 @@ body
 {
    text-align: left;
 }
+#wb_Text24 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text24 div
+{
+   text-align: left;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #MenuBar1
 {
    background-color: transparent;
@@ -1613,7 +1636,7 @@ body
 .MenuBar1SubMenu
 {
    background-color: transparent;
-   border: 0px solid #2F4F4F;
+   border: 1px solid #2F4F4F;
    position:	absolute;
    visibility: hidden;
    overflow: visible;
@@ -1913,7 +1936,7 @@ body
    border: 0;
    font-size: 1px;
 }
-#wb_Text24 
+#wb_Text26 
 {
    background-color: transparent;
    background-image: none;
@@ -1922,19 +1945,9 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text24 div
+#wb_Text26 div
 {
    text-align: left;
-}
-#Image2
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
 }
 #PageFooter1
 {

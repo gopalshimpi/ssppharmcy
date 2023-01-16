@@ -55,33 +55,6 @@ body
 {
    text-align: center;
 }
-#wb_Shape5 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape5 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape5 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape5 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape5 a:hover span
-{
-   visibility: hidden;
-}
-#Shape5
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #wb_Text2 
 {
    background-color: transparent;
@@ -1209,7 +1182,7 @@ body
 .MenuBar1SubMenu
 {
    background-color: transparent;
-   border: 0px solid #2F4F4F;
+   border: 1px solid #2F4F4F;
    position:	absolute;
    visibility: hidden;
    overflow: visible;

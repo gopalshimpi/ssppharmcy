@@ -70,33 +70,6 @@ body
 {
    text-align: center;
 }
-#wb_Shape5 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape5 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape5 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape5 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape5 a:hover span
-{
-   visibility: hidden;
-}
-#Shape5
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #Shape1
 {
    border-width: 0;
@@ -2200,6 +2173,56 @@ body
 {
    display: none;
 }
+#SlideShow10 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SlideShow10 a:not(:first-child) .image
+{
+   display: none;
+}
+#wb_Text111 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text111 div
+{
+   text-align: left;
+}
+#SlideShow12 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#SlideShow12 a:not(:first-child) .image
+{
+   display: none;
+}
+#wb_Text8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text8 div
+{
+   text-align: center;
+}
 #MenuBar1
 {
    background-color: transparent;
@@ -2208,7 +2231,7 @@ body
 .MenuBar1SubMenu
 {
    background-color: transparent;
-   border: 0px solid #2F4F4F;
+   border: 1px solid #2F4F4F;
    position:	absolute;
    visibility: hidden;
    overflow: visible;
@@ -2507,56 +2530,6 @@ body
    padding: 0;
    border: 0;
    font-size: 1px;
-}
-#SlideShow10 .image
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#SlideShow10 a:not(:first-child) .image
-{
-   display: none;
-}
-#wb_Text111 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text111 div
-{
-   text-align: left;
-}
-#SlideShow12 .image
-{
-   border-width: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#SlideShow12 a:not(:first-child) .image
-{
-   display: none;
-}
-#wb_Text8 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text8 div
-{
-   text-align: center;
 }
 #PageFooter1
 {

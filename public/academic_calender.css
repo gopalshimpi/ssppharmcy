@@ -1168,6 +1168,11 @@ body
 {
    text-align: left;
 }
+#InlineFrame1
+{
+   border: 1px solid #2F4F4F;
+   margin: 0;
+}
 #MenuBar1
 {
    background-color: transparent;
@@ -1176,7 +1181,7 @@ body
 .MenuBar1SubMenu
 {
    background-color: transparent;
-   border: 0px solid #2F4F4F;
+   border: 1px solid #2F4F4F;
    position:	absolute;
    visibility: hidden;
    overflow: visible;
@@ -1475,11 +1480,6 @@ body
    padding: 0;
    border: 0;
    font-size: 1px;
-}
-#InlineFrame1
-{
-   border: 1px solid #2F4F4F;
-   margin: 0;
 }
 #PageFooter1
 {

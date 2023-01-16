@@ -1285,104 +1285,6 @@ body
 {
    text-align: left;
 }
-#wb_MaterialIcon2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_MaterialIcon2:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#MaterialIcon2
-{
-   height: 251px;
-   width: 259px;
-}
-.MaterialIcon2
-{
-   position: relative;
-   left: 0;
-   top: 0;
-   display: inline-block;
-   font-family: "Material Icons";
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-}
-.MaterialIcon2:before
-{
-   content: "\";
-}
-#MaterialIcon2 i
-{
-   color: #DC143C;
-   display: inline-block;
-   font-size: 251px;
-   line-height: 251px;
-   vertical-align: middle;
-   width: 73px;
-}
-#wb_MaterialIcon2:hover i
-{
-   color: #CD5C5C;
-}
-#wb_MaterialIcon1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_MaterialIcon1:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#MaterialIcon1
-{
-   height: 36px;
-   width: 36px;
-}
-.MaterialIcon1
-{
-   position: relative;
-   left: 0;
-   top: 0;
-   display: inline-block;
-   font-family: "Material Icons";
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-}
-.MaterialIcon1:before
-{
-   content: "\";
-}
-#MaterialIcon1 i
-{
-   color: #265A88;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 10px;
-}
-#wb_MaterialIcon1:hover i
-{
-   color: #337AB7;
-}
 #Image6
 {
    border: 1px solid #000000;
@@ -1406,104 +1308,6 @@ body
 #wb_Text7 div
 {
    text-align: center;
-}
-#wb_MaterialIcon3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_MaterialIcon3:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#MaterialIcon3
-{
-   height: 36px;
-   width: 36px;
-}
-.MaterialIcon3
-{
-   position: relative;
-   left: 0;
-   top: 0;
-   display: inline-block;
-   font-family: "Material Icons";
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-}
-.MaterialIcon3:before
-{
-   content: "\";
-}
-#MaterialIcon3 i
-{
-   color: #265A88;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 10px;
-}
-#wb_MaterialIcon3:hover i
-{
-   color: #337AB7;
-}
-#wb_MaterialIcon4
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_MaterialIcon4:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#MaterialIcon4
-{
-   height: 36px;
-   width: 36px;
-}
-.MaterialIcon4
-{
-   position: relative;
-   left: 0;
-   top: 0;
-   display: inline-block;
-   font-family: "Material Icons";
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-}
-.MaterialIcon4:before
-{
-   content: "\";
-}
-#MaterialIcon4 i
-{
-   color: #265A88;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 10px;
-}
-#wb_MaterialIcon4:hover i
-{
-   color: #337AB7;
 }
 #Shape10
 {
@@ -1546,55 +1350,6 @@ body
    top: 0;
    width: 100%;
    height: 100%;
-}
-#wb_MaterialIcon5
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-}
-#wb_MaterialIcon5:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#MaterialIcon5
-{
-   height: 36px;
-   width: 36px;
-}
-.MaterialIcon5
-{
-   position: relative;
-   left: 0;
-   top: 0;
-   display: inline-block;
-   font-family: "Material Icons";
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
-}
-.MaterialIcon5:before
-{
-   content: "\";
-}
-#MaterialIcon5 i
-{
-   color: #265A88;
-   display: inline-block;
-   font-size: 36px;
-   line-height: 36px;
-   vertical-align: middle;
-   width: 10px;
-}
-#wb_MaterialIcon5:hover i
-{
-   color: #337AB7;
 }
 #Image2
 {
@@ -1664,54 +1419,25 @@ body
 {
    text-align: left;
 }
-#wb_IconFont1
+#Image11
 {
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-   text-align: center;
-   margin: 0;
+   border: 0px solid #000000;
    padding: 0;
-   vertical-align: top;
-}
-#wb_IconFont1:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #245580;
-}
-#IconFont1
-{
-   height: 251px;
-   width: 259px;
-}
-.IconFont1
-{
-   position: relative;
+   margin: 0;
    left: 0;
    top: 0;
-   display: inline-block;
-   font-family: "Material Icons";
-   font-style: normal;
-   font-weight: normal;
-   line-height: 1;
+   width: 100%;
+   height: 100%;
 }
-.IconFont1:before
+#Image12
 {
-   content: "\";
-}
-#IconFont1 i
-{
-   color: #DC143C;
-   display: inline-block;
-   font-size: 251px;
-   line-height: 251px;
-   vertical-align: middle;
-   width: 73px;
-}
-#wb_IconFont1:hover i
-{
-   color: #CD5C5C;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #MenuBar1
 {
@@ -1721,7 +1447,7 @@ body
 .MenuBar1SubMenu
 {
    background-color: transparent;
-   border: 0px solid #2F4F4F;
+   border: 1px solid #2F4F4F;
    position:	absolute;
    visibility: hidden;
    overflow: visible;
